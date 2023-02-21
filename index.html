@@ -22,6 +22,26 @@
   <body>
     <div class="container">
       <div class="vanilla-weather-app">
+        <form id="search-form">
+      <input
+        type="search"
+        placeholder="Enter a city"
+        autocomplete="off"
+        id="city-input"
+      />
+      <input
+        class="submit-button"
+        type="submit"
+        value="submit"
+        placeholder="Send"
+      />
+      <input
+        id="location-button"
+        class="button-style"
+        type="submit"
+        value="current location"
+      />
+    </form>
         <h1>Amsterdam</h1>
             <div class="rol-6">
             <div class="float-left">
@@ -46,7 +66,50 @@
               </ul>
             </div>
           </div>
+        <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 80%">
+            <div class="card-body">
+              <h5 class="card-title">Wednesday</h5>
+              <i class="fa-solid fa-cloud-bolt cloud-icon"></i>
+              <p class="card-text">5°C</p>
+            </div>
+          </div>
         </div>
+
+        <div class="col">
+          <div class="card" style="width: 80%">
+            <div class="card-body">
+              <h5 class="card-title">Thursday</h5>
+              <i class="fa-solid fa-cloud-bolt cloud-icon"></i>
+              <p class="card-text">3°C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 80%">
+            <div class="card-body">
+              <h5 class="card-title">Friday</h5>
+              <i class="fa-solid fa-cloud cloud-icon"></i>
+              <p class="card-text">3°C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 80%">
+            <div class="card-body">
+              <h5 class="card-title">Saturday</h5>
+              <i class="fa-solid fa-cloud-bolt cloud-icon"></i>
+              <p class="card-text">4°C</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
         <small>
           <a
             href="https://github.com/naragoncalves/vanilla-weather-app"
